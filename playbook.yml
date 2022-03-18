@@ -14,6 +14,7 @@
       - httpd
       - php
       - mariadb-server
+      - ansible
   - name: Arret du service nginx
     systemd:
      name: nginx
@@ -26,6 +27,7 @@
       - httpd
       - mariadb
       - php
+      - ansible
   - name: SUppression du fichier index.html
     file:
      path: /var/www/html/index.html
