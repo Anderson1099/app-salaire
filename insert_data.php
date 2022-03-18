@@ -7,7 +7,7 @@
    <body>
       <?php
          if(isset($_POST['add'])) {
-            $dbhost = 'app-salaire.affiss-laguide.form';
+            $dbhost = '172.25.128.201';
             $dbuser = 'root';
             $dbpass = '';
             $conn = mysql_connect($dbhost, $dbuser, $dbpass);
