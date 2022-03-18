@@ -1,6 +1,6 @@
 <?php
    
-   $dbhost = '172.25.128.201';
+   $dbhost = 'hosts';
    $dbuser = 'root';
    $dbpass = '';
    $conn = mysql_connect($dbhost, $dbuser, $dbpass);
