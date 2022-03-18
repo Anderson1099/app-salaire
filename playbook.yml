@@ -1,6 +1,6 @@
 ---
 
-- hosts: 172.25.131.66
+- hosts: 172.25.128.201
   tasks:
   - name: Mise en place du depot
     yum:
