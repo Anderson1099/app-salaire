@@ -2,8 +2,8 @@ node{
     stage('Clone git') {
         checkout scm
     }
-    stage('ansible') {
-      Playbook (
+    stage('Ansible') {
+      ansiblePlaybook (
           colorized: true,          
           playbook: 'playbook.yml',
           inventory: 'hosts.yml'
